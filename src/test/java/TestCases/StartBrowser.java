@@ -38,7 +38,7 @@ public class StartBrowser extends HelpingFunction {
 				  	options.addArguments("--disable-extensions");
 				  	options.addArguments();
 				 	options.addArguments("--start-maximized");
-				// 	options.addArguments("--headless");
+				 	options.addArguments("--headless");
 				 	options.addArguments("--no-sandbox");
 				 	options.addArguments("--disable-dev-shm-usage");
 				 	
