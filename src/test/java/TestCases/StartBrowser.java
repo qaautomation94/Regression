@@ -43,7 +43,7 @@ public class StartBrowser extends HelpingFunction {
 				 	options.addArguments("--disable-dev-shm-usage");
 				 	
 				 	options.setPageLoadStrategy(PageLoadStrategy.NONE);
-				// 	options.addArguments("--start-fullscreen");
+				 	options.addArguments("--start-fullscreen");
 				  	driver = new ChromeDriver(options);
 				 	driver.manage().timeouts().implicitlyWait(180, TimeUnit.SECONDS);
 					driver.manage().timeouts().pageLoadTimeout(180, TimeUnit.SECONDS);
